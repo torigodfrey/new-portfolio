@@ -28,11 +28,18 @@ li a{
 	
 	text-decoration: none;
 	font-family: 'Noto Serif SC', serif;
-	color: #5A7D7C;
+	color: #4B2E39;
 }
+
+li a:hover {
+	background-color: #9197AE;
+}
+
 
 nav h1 {
 	margin-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
 }
 
 
@@ -43,7 +50,6 @@ nav h1 {
 		width: 30%;
 		left: 0;
 		top: 33%;
-		background-color: white;
 		border-bottom: none;
 	}
 

@@ -1,0 +1,26 @@
+#about-me {
+	margin-top: 100px;
+}
+#headline {
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+#bio {
+	color: #565254;
+	
+}
+
+@media all and (min-width: 800px) {
+	#about-me {
+			position: fixed;
+			left: 30%;
+			top: 33%;
+			width: 60%;
+			border-bottom: none;
+			margin-top: 0px;
+			max-width: 800px;
+			
+		}
+}

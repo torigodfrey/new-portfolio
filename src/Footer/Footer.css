@@ -1,26 +1,30 @@
 
 footer {
 	position: fixed;
-	bottom: 0;
+	bottom: 10px;
 	width: 100%;
 	text-align: center;
 }
 
 
 footer a {
-	color: black;
+	color: #9197AE;
 	font-size: 20px;
 	padding: 2px;
+}
+
+footer a:hover{
+	font-size: 22px;
+	color: #444054;
 }
 
 
 
 @media all and (min-width: 800px) {
 	footer {
-		position: fixed;
+		top: 50%;
 		width: 30%;
 		left: 0;
-		bottom: 35%;
 		color: #DCDCDC;
 	}
 	
