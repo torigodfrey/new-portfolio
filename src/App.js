@@ -2,7 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import AboutPage from './AboutPage/AboutPage'
 import ProjectsPage from './ProjectsPage/ProjectsPage'
-function App() {
+
+class App extends React.Component {
+ componentDidMount(){
+    document.title = "Tori Godfrey Portfolio"
+  }
+
+  render(){
   return (
    <Router>
     <Route
@@ -15,6 +21,7 @@ function App() {
     />
    </Router>
   );
+ }
 }
 
 export default App;

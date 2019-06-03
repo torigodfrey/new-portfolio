@@ -7,7 +7,7 @@ class Navbar extends React.Component{
 		return(
 			<nav role="navigation">
 				<h1>Tori Godfrey</h1>
-				<ul class="nav-ul">
+				<ul className="nav-ul">
 					<li className="nav-li"><Link to={`/`}>About</Link></li>
 					<li className="nav-li"><Link to={`/Projects`}>Projects</Link></li>
 				</ul>

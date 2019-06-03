@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects.css'
-import RecipeBox from '../Pictures/recipebox.png'
-import dummyStore from './dummyStore'
+import projectStore from './projectStore'
 
 class Projects extends React.Component{ 
 	state = {
@@ -9,12 +8,12 @@ class Projects extends React.Component{
 	}
 
 	componentDidMount(){
-		this.setState(dummyStore)
+		this.setState(projectStore)
 	}
 
 
 	projectHTML(project){
-		return(<div className="project-container">
+		return(<div key={project.title} className="project-container">
 					<div className="project-name">
 						<h3>{project.title}</h3>
 							<div className="project">
