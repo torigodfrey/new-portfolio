@@ -17,6 +17,10 @@ footer a:hover{
 	color: #444054;
 }
 
+footer a:visited{
+	color: #444054;
+}
+
 @media all and (max-width: 1080px) {
 		footer {
 		position: absolute;
