@@ -1,31 +1,46 @@
 
 footer {
-	position: fixed;
-	bottom: 10px;
-	width: 100%;
+	position: absolute;
+	bottom: 5px;
 	text-align: center;
 }
 
 
 footer a {
 	color: #9197AE;
-	font-size: 20px;
+	font-size: 25px;
 	padding: 2px;
 }
 
 footer a:hover{
-	font-size: 22px;
+	font-size: 27px;
 	color: #444054;
+}
+
+@media all and (max-width: 1080px) {
+		footer {
+		position: absolute;
+		bottom: 5px;
+		text-align: center;
+		background-color: white;
+		border-top: 1px solid gray;
+		left: 0;
+		right: 0;
+		padding: 3px;
+		border-top: 1px solid gray;
+	}
 }
 
 
 
 @media all and (min-width: 1080px) {
 	footer {
-		top: 50%;
+		top: 370px;
 		width: 25%;
 		left: 0;
 		color: #DCDCDC;
+		border-top: none;
+		padding: 0;
 	}
 	
 }

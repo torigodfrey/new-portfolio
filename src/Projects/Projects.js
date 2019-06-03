@@ -22,13 +22,15 @@ class Projects extends React.Component{
 								<div className="project-box">
 									<div className="project-description">
 										<p className="description">{project.description}</p>
-										<ul className="project-ul">
-											<li className="project-button"><a href={project.live}>Live</a></li>
-											<li className="project-button"><a href={project.repo}>Repo</a></li>
-										</ul>
 									</div>
 								</div>
 							</div>
+							<a href={project.live} className="button-links">
+								<p className="link-text">Live</p>
+							</a>
+							<a href={project.repo} className="button-links">
+								<p className="link-text">Repo</p>
+							</a>
 					</div>
 				</div>)
 	}
@@ -37,8 +39,9 @@ class Projects extends React.Component{
 		const displayProjects = projects.map((project) => this.projectHTML(project))
 		return(
 			<div id="projects-container">
-				<h2 className="project-title"> My Work</h2>
-				<hr />
+				<div className="decorative-line">
+					<h2 className="project-title"> My Work</h2>
+				</div>
 				<div className="project-flex">
 					{displayProjects}
 				</div>

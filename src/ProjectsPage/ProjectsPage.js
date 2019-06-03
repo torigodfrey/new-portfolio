@@ -9,8 +9,8 @@ class ProjectsPage extends React.Component {
   	return (
 	    <div className='App'>
 			<Navbar />
+			<Projects />
 			<Footer />
-		    <Projects />
 	    </div>
 	  );
 	}

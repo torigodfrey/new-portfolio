@@ -13,53 +13,75 @@ hr {
 	left: 0;
 	right: 0; 
 	background-color: #F7F7F7;
-
 }
 
+.decorative-line {
+	background-color: white;
+	height: 60px;
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+}
 
+.decorative-line:hover{
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+}
 
 .project-flex {
 	display: flex;                     
   flex-wrap: wrap;                     /* enable flex items to wrap */
   justify-content: flex-end;
+  margin-top: 15px;
 }
 
 .project-container {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .portfolio-photo {
 	width: 90%;
 	margin-top: 20px;
-	max-height: 400px;
 	margin: auto;
-	border: 1px solid #cdcdcd
+	border: 1px solid #cdcdcd;
+	margin-bottom: 0;
 }
 
-.project-button {
-	text-transform: uppercase;
-	border: 3px solid #9197AE;
-	display: block;
-	margin-right: 50px;
-	border-radius: 20px;
-	margin-bottom: 10px;
-
-}
 
 .project-container {
 	text-align: center;
 }
 
-.project-ul {
-	margin-top: 10%;
+
+
+.button-links {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+	width: 45%;
+	margin: 1px;
+	margin-top: 0px;
+	background-color: #444054;
+	color: white;
+	height: 50px;
+	font-size: 20px;
+	padding: 0;
+	text-transform: uppercase;
 }
 
-.project-button a{
-	color: white;
+.button-links:hover{
+	background-color: #9197AE;
+	border: 2px solid #9197AE;
 }
+
+
+.link-text {
+  font-family: 'Unica One', cursive;
+  margin-top: 7px;
+  font-size: 30px;
+}
+
 
 .description {
-	display: none;
+	font-size: 120%;
 }
 
 
@@ -101,18 +123,20 @@ h3 {
 	bottom: 0;
 	width: 90%;
 	height: 100%;
-	background: rgba(27, 25, 33, 0.8);
+	background: rgba(27, 25, 33, 0.9);
 	color: #fff;
 	padding: 15px;
 	-moz-transition: all 0.4s ease-in-out 0s;
 	-webkit-transition: all 0.4s ease-in-out 0s;
 	-ms-transition: all 0.4s ease-in-out 0s;
 	transition: all 0.4s ease-in-out 0s;
+	border: 2px solid black;
 }
+
 .project:hover .project-box,
 .project.active .project-box {
 	opacity: 1;
-	cursor: pointer;
+
 }
 .project .project-text {
 	text-align: center;
@@ -154,25 +178,30 @@ h3 {
 	transform: translateX(0);
 }
 
+.project-description {
+	width: 100%;
+	font-size: 85%;
+}
+
 @media all and (min-width: 600px) {
-	.project-description {
-		margin: 10%;
-	}
+
 	.description {
 		display: block;
 	}
-	.project-button {
-		display: inline-block;
-		width: 120px;
-		margin: 15px;
-		margin-top: 0px;
+
+	.project-description {
+		padding: 10%;
 
 	}
 
-	.project-ul {
-		margin-right: 50px;
+}
+
+@media all and (min-width: 800px) {
+	.project-description {
+		font-size: 120%;
 	}
 }
+
 @media all and (min-width: 1080px) {
 	#projects-container {
 			position: fixed;
@@ -182,9 +211,13 @@ h3 {
 			margin-top: 0px;
 			width: 75%;
 			height: 100%;
-			border-left: 1px solid #cdcdcd;
+			box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 		}
 
+	.project-description {
+		font-size: 150%;
+		padding: 5%;
+	}
 
 	.project-title {
 		text-align: center;
@@ -197,11 +230,6 @@ h3 {
 
 	hr {
 		display: block;
-	}
-	.project-button {
-		padding: 10px;
-		width: 25%;
-		margin: 5px;
 	}
 
 
