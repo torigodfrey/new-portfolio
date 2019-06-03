@@ -20,10 +20,10 @@ footer a:hover{
 
 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 1080px) {
 	footer {
 		top: 50%;
-		width: 30%;
+		width: 25%;
 		left: 0;
 		color: #DCDCDC;
 	}

@@ -2,19 +2,38 @@ hr {
 	display: none;
 }
 
-
+.project-title {
+	text-align: center;
+}
 #projects-container {
-	position: fixed;
-	top: 50px;
-	height: 100%;
+	position: absolute;
+	top: 56px;
+	height: 90%;
 	overflow: auto;
-	width: 100%;
+	left: 0;
+	right: 0; 
+	background-color: #F7F7F7;
+
+}
+
+
+
+.project-flex {
+	display: flex;                     
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: flex-end;
+}
+
+.project-container {
+	margin-bottom: 30px;
 }
 
 .portfolio-photo {
 	width: 90%;
 	margin-top: 20px;
 	max-height: 400px;
+	margin: auto;
+	border: 1px solid #cdcdcd
 }
 
 .project-button {
@@ -25,6 +44,10 @@ hr {
 	border-radius: 20px;
 	margin-bottom: 10px;
 
+}
+
+.project-container {
+	text-align: center;
 }
 
 .project-ul {
@@ -69,6 +92,7 @@ h3 {
 }
 
 .project .project-box {
+	margin: auto;
 	opacity: 0;
 	position: absolute;
 	top: 0;
@@ -149,17 +173,27 @@ h3 {
 		margin-right: 50px;
 	}
 }
-@media all and (min-width: 800px) {
+@media all and (min-width: 1080px) {
 	#projects-container {
 			position: fixed;
-			left: 30%;
-			top: 5%;
-			width: 60%;
+			left: 25%;
+			top: 0%;
 			border-bottom: none;
 			margin-top: 0px;
-			max-width: 800px;
-			
+			width: 75%;
+			height: 100%;
+			border-left: 1px solid #cdcdcd;
 		}
+
+
+	.project-title {
+		text-align: center;
+	}
+
+	.portfolio-photo {
+		width: 90%;
+
+	}
 
 	hr {
 		display: block;
@@ -168,5 +202,14 @@ h3 {
 		padding: 10px;
 		width: 25%;
 		margin: 5px;
+	}
+
+
+}
+
+@media all and (min-width: 1500px) {
+
+	.project-container {
+		max-width: 50%;
 	}
 }

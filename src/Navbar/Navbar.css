@@ -47,11 +47,11 @@ nav h1 {
 }
 
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 1080px) {
 	
 	nav {
 		position: fixed;
-		width: 30%;
+		width: 25%;
 		left: 0;
 		top: 33%;
 		border-bottom: none;

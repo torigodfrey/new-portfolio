@@ -8,9 +8,9 @@ class ProjectsPage extends React.Component {
 	render(){
   	return (
 	    <div className='App'>
-	      <Navbar />
-	      <Footer />
-	      <Projects />
+			<Navbar />
+			<Footer />
+		    <Projects />
 	    </div>
 	  );
 	}
