@@ -8,15 +8,19 @@ nav {
 	border-bottom: 1px solid #9396A0;
 	}
 
-ul {
-	list-style-type: none;
+
+.nav-ul {
 	padding: 0;
 	position: fixed;
 	right: 0;
 	top: 0;
 }
 
-.nav-li {
+ul {
+	list-style-type: none;
+}
+
+li {
 	display: inline-block;
 	margin-left: 10px;
 	margin-right: 10px;
@@ -31,7 +35,7 @@ li a{
 	color: #4B2E39;
 }
 
-li a:hover {
+.nav-li a:hover {
 	background-color: #9197AE;
 }
 
@@ -53,12 +57,12 @@ nav h1 {
 		border-bottom: none;
 	}
 
-	ul {
+	.nav-ul {
 		list-style-type: none;
 		position: relative;
 	}
 
-	.nav li {
+	.nav-li {
 		display: block;
 		margin-left: 5%;
 		text-align: center;
