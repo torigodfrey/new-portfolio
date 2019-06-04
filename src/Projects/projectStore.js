@@ -7,6 +7,7 @@ export default {
 			"technologies": "React, Node.js/Express.js",
 			"live": "https://recipebox.victorialgodfrey.now.sh/",
 			"repo": "https://github.com/inertiawhoosh/my-recipe-box"
+		
 		},
 		{
 			"title": "MAWNJ Splash Page",
@@ -19,7 +20,7 @@ export default {
 		{
 			"title": "Dine.",
 			"img": "https://i.imgur.com/sfBukUE.jpg",
-			"description": "Dine. is an evolving project which allows users to search for a recipe either based on search terms of their choosing, or by selecting a random recipe. After finding a recipe users will be asked if they would like to search for wine. That feature will provide the user with 3 wine options, including price.",
+			"description": "Dine. allows users to search for a recipe either based on search terms of their choosing, or by selecting a random recipe. After finding a recipe users will be asked if they would like to search for wine. That feature will provide the user with 3 wine options, including price.",
 			"technologies": "HTML/CSS, JavaScript/JQuery, Spoonacular API",
 			"live": "https://inertiawhoosh.github.io/dine/",
 			"repo": "https://github.com/inertiawhoosh/dine/"

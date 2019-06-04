@@ -217,6 +217,7 @@ h3 {
 	.project-description {
 		font-size: 150%;
 		padding: 5%;
+		margin-top: 10px;
 	}
 
 	.project-title {
@@ -239,5 +240,9 @@ h3 {
 
 	.project-container {
 		max-width: 50%;
+	}
+	.project-description {
+		font-size: 100%;
+		padding: 5%;
 	}
 }
