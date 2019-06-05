@@ -7,6 +7,7 @@ export default {
 			"technologies": "React, Node.js/Express.js",
 			"live": "https://recipebox.victorialgodfrey.now.sh/",
 			"repo": "https://github.com/inertiawhoosh/my-recipe-box",
+			"trello": "https://trello.com/b/1X6UxStR/my-recipe-box"
 
 		},
 		{

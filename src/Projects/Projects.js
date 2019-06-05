@@ -11,8 +11,24 @@ class Projects extends React.Component{
 		this.setState(projectStore)
 	}
 
+	extraLinks(project){
+		if (project.trello) {
+			return (
+				<div>
+					<a href={project.trello} className="trello-link">
+						<p className="link-text">Agile Board & Updates</p>
+					</a>
+				</div>
+			)
+		} else {
+			return (
+			<p></p>)
+		}
+	}
+
 
 	projectHTML(project){
+		const extraLink = this.extraLinks(project);
 		return(<div key={project.title} className="project-container">
 					<div className="project-name">
 						<h3>{project.title}</h3>
@@ -24,6 +40,7 @@ class Projects extends React.Component{
 									</div>
 								</div>
 							</div>
+							{extraLink}
 							<a href={project.live} className="button-links">
 								<p className="link-text">Live</p>
 							</a>
