@@ -22,7 +22,7 @@ class Projects extends React.Component{
 			)
 		} else {
 			return (
-			<p></p>)
+			<div/>)
 		}
 	}
 
