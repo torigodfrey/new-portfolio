@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "portfolio",
+  "alias": "tori-portfolio",
   "name": "Portfolio",
   "routes": [
       {
