@@ -26,9 +26,16 @@ class Projects extends React.Component{
 		}
 	}
 
+	technologies(project){
+		 return project.technologies.map(technology => (
+		 <li className="technology-item">{technology}</li>
+		 ));
+	}
+
 
 	projectHTML(project){
 		const extraLink = this.extraLinks(project);
+		const technologyList = this.technologies(project);
 		return(<div key={project.title} className="project-container">
 					<div className="project-name">
 						<h3>{project.title}</h3>
@@ -47,6 +54,9 @@ class Projects extends React.Component{
 							<a href={project.repo} className="button-links">
 								<p className="link-text">Repo</p>
 							</a>
+							<ul>
+							{technologyList}
+							</ul>
 					</div>
 				</div>)
 	}
