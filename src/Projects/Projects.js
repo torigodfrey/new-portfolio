@@ -53,8 +53,8 @@ class Projects extends React.Component{
 							</a>
 							<a href={project.repo} className="button-links">
 								<p className="link-text">Repo</p>
-							</a>
-							<ul>
+							</a><br/>
+							<ul className="technology-list">
 							{technologyList}
 							</ul>
 					</div>

@@ -33,9 +33,6 @@ hr {
   margin-top: 15px;
 }
 
-.project-container {
-	margin-bottom: 40px;
-}
 
 .portfolio-photo {
 	width: 90%;
@@ -48,12 +45,28 @@ hr {
 
 .project-container {
 	text-align: center;
+	margin-bottom: 40px;
 }
 
 .technology-item {
+	all: initial;
+	margin: 1px;
 	background-color: green;
+	color: white;
+	height: 20px;
+	font-size: 20px;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'Unica One', cursive;
+	font-size: 16px;
+
 }
 
+.technology-list {
+	all: initial;
+	top: 10px;
+	position: relative;
+}
 
 
 .button-links {
