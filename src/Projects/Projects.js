@@ -37,28 +37,27 @@ class Projects extends React.Component{
 		const extraLink = this.extraLinks(project);
 		const technologyList = this.technologies(project);
 		return(<div key={project.title} className="project-container">
-					<div className="project-name">
-						<h3>{project.title}</h3>
-							<div className="project">
-								<img src={project.img} className = "portfolio-photo" alt="recipe box main screen" />
-								<div className="project-box">
-									<div className="project-description">
-										<p className="description">{project.description}</p>
-									</div>
-								</div>
-							</div>
-							{extraLink}
-							<a href={project.live} className="button-links">
-								<p className="link-text">Live</p>
-							</a>
-							<a href={project.repo} className="button-links">
-								<p className="link-text">Repo</p>
-							</a><br/>
-							<ul className="technology-list">
-							{technologyList}
-							</ul>
+				<h3>{project.title}</h3>
+				<div className="project">
+					<img src={project.img} className = "portfolio-photo" alt="recipe box main screen" />
+					<div className="project-box">
+						<div className="project-description">
+							<p className="description">{project.description}</p>
+						</div>
 					</div>
-				</div>)
+				</div>
+				{extraLink}
+				<a href={project.live} className="button-links">
+					<p className="link-text">Live</p>
+				</a>
+				<a href={project.repo} className="button-links">
+					<p className="link-text">Repo</p>
+				</a>
+				<h4>Technologies:</h4>
+				<ul className="technology-list">
+				 {technologyList}
+				</ul>
+			</div>)
 	}
 	render(){
 		const { projects } = this.state;
