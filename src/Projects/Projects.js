@@ -39,7 +39,7 @@ class Projects extends React.Component{
 		return(<div key={project.title} className="project-container">
 				<h3>{project.title}</h3>
 				<div className="project">
-					<img src={project.img} className = "portfolio-photo" alt="recipe box main screen" />
+					<img src={project.img} className = "portfolio-photo" alt="photo of project" />
 					<div className="project-box">
 						<div className="project-description">
 							<p className="description">{project.description}</p>

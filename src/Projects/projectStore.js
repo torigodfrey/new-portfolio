@@ -1,15 +1,13 @@
 export default {
 	"projects": [
 		{
-			"title": "RecipeBox",
-			"img": "https://i.imgur.com/oOX2hSm.jpg",
-			"description": "ONGOING: RecipeBox is an evolving full-stack product. Users can submit recipes to a shared recipe box, and search for recipes by title. Please see the ReadMe for upcoming plans for this project. Updates are made frequently.",
-			"technologies": ['React', 'Express', 'Node.js', 'JavaScript', 'HTML/CSS', 'PosgreSQL'],
-			"live": "https://recipe-box.victorialgodfrey.now.sh/",
-			"repo": "https://github.com/inertiawhoosh/my-recipe-box",
-			"trello": "https://trello.com/b/1X6UxStR/my-recipe-box"
-
-		},
+			"title": "Weather App (Vanilla JS Verison)",
+			"img": "https://i.imgur.com/JfL6IN0.jpg",
+			"description": "Weather App pulls from a weather API to display the weather. The background color and icons change with the weather, so try a few different locations to see that happen!",
+			"technologies": ['JQuery', 'Bootstrap', 'JavaScript', 'HTML/CSS'],
+			"live": "https://affectionate-brahmagupta-d36e16.netlify.app/",
+			"repo": "https://github.com/inertiawhoosh/weather-app",
+		}, 
 		{
 			"title": "Calculator App",
 			"img": "https://i.imgur.com/f6YAx7x.jpg",
