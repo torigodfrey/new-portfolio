@@ -29,7 +29,7 @@ hr {
 .project-flex {
 	display: flex;                     
   flex-wrap: wrap;                     /* enable flex items to wrap */
-  justify-content: flex-end;
+  justify-content: flex-start;
   margin-top: 15px;
 }
 
