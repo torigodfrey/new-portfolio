@@ -9,6 +9,14 @@ export default {
 			"repo": "https://github.com/inertiawhoosh/weather-app",
 		}, 
 		{
+			"title": "Hackweek 2019 (Winner)",
+			"img": "https://i.imgur.com/k0EATei.jpg",
+			"description": "Winning support engineer hackweek project 2019 - Chrome extension to help support engineers solve tickets more quickly. I link to the read-me instead of the tool or repo as it is internal use.",
+			"technologies": ['JQuery', 'JavaScript', 'HTML/CSS'],
+			"live": "https://github.com/inertiawhoosh/chrome-extension/blob/master/README.md",
+			"repo": "https://github.com/inertiawhoosh/chrome-extension/blob/master/README.md",
+		}, 
+		{
 			"title": "Calculator App",
 			"img": "https://i.imgur.com/f6YAx7x.jpg",
 			"description": "Calculator App is a dupe of the iOS calculator made in React. Uses state to keep track of whether a decimal point is present, whether the equal button has been pressed, and whether a user has entered an operand.",
