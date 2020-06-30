@@ -28,9 +28,9 @@
 
 @media all and (min-width: 1080px) {
 	#about-me {
-			position: fixed;
+			position: relative;
 			left: 30%;
-			top: 28%;
+			top: 210px;
 			width: 60%;
 			border-bottom: none;
 			margin-top: 0px;
