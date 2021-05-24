@@ -1,6 +1,14 @@
 export default {
 	"projects": [
 		{
+			"title": "Character Tracker Discord Bot",
+			"img": "https://i.imgur.com/EN76usC.png",
+			"description": "This discord bot is made for collaborative writers to keep track of their writing activity. Character details are stored in a repl.it database. ",
+			"technologies": ['Python', 'CRUD'],
+			"live": "https://replit.com/@inertiawhoosh/KBF-1#main.py",
+			"repo": "https://replit.com/@inertiawhoosh/KBF-1#main.py",
+		}, 
+		{
 			"title": "Weather App (Vanilla JS Verison)",
 			"img": "https://i.imgur.com/JfL6IN0.jpg",
 			"description": "Weather App pulls from a weather API to display the weather. The background color and icons change with the weather, so try a few different locations to see that happen!",
