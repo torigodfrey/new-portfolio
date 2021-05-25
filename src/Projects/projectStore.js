@@ -2,7 +2,7 @@ export default {
 	"projects": [
 		{
 			"title": "Omniclaims & Claim Builder",
-			"img": "https://i.imgur.com/pPlKDSq.png",
+			"img": "https://i.imgur.com/idAQ1mY.png",
 			"description": "A tool for collaborative writers to keep track of characters on the writing site. Claims are also made through a simple 'quick claim builder' for ease of use with less tech-savvy users.",
 			"technologies": ['Javascript', 'HTML/CSS'],
 			"live": "https://github.com/inertiawhoosh/Omnitracker",
