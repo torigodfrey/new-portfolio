@@ -10,7 +10,7 @@ export default {
 		}, 
 		{
 			"title": "Character Tracker Discord Bot",
-			"img": "https://i.imgur.com/EN76usC.png",
+			"img": "https://i.imgur.com/j41r1IK.jpg",
 			"description": "This discord bot is made for collaborative writers to keep track of their writing activity. Character details are stored in a repl.it database. ",
 			"technologies": ['Python', 'CRUD'],
 			"live": "https://replit.com/@inertiawhoosh/KBF-1#main.py",
