@@ -1,6 +1,14 @@
 export default {
 	"projects": [
 		{
+			"title": "Omniclaims & Claim Builder",
+			"img": "https://i.imgur.com/pPlKDSq.png",
+			"description": "A tool for collaborative writers to keep track of characters on the writing site. Claims are also made through a simple 'quick claim builder' for ease of use with less tech-savvy users.",
+			"technologies": ['Javascript', 'HTML/CSS'],
+			"live": "https://github.com/inertiawhoosh/Omnitracker",
+			"repo": "https://github.com/inertiawhoosh/Omnitracker",
+		}, 
+		{
 			"title": "Character Tracker Discord Bot",
 			"img": "https://i.imgur.com/EN76usC.png",
 			"description": "This discord bot is made for collaborative writers to keep track of their writing activity. Character details are stored in a repl.it database. ",
